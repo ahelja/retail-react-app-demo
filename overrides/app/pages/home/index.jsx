@@ -35,6 +35,8 @@ import {
 import {useServerContext} from '@salesforce/pwa-kit-react-sdk/ssr/universal/hooks'
 import {useProductSearch} from '@salesforce/commerce-sdk-react'
 
+import Banner from '../../components/banner'
+
 /**
  * This is the home page for Retail React App.
  * The page is created for demonstration purposes.
@@ -80,6 +82,8 @@ const Home = () => {
                 description="Commerce Cloud Retail React App"
                 keywords="Commerce Cloud, Retail React App, React Storefront"
             />
+
+            <Banner message="Benvenuto nel nostro sito!" backgroundColor="blue.500" textColor="white" />
 
             <Hero
                 title={CUSTOM_HOME_TITLE}
