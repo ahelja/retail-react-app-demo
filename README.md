@@ -2,7 +2,7 @@
 
 ## This guide will show you how to create a site using the Salesforce PWA Kit. Follow these simple steps to get started: 
 
-## Steps 1. **Create a new project:** 
+## Create a new project:
 
 ```bash 
 npx @salesforce/pwa-kit-create-app@latest --preset retail-react-app-demo
